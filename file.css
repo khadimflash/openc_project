@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Michroma&display=swap');
+
+
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    background-color: #1F2039;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+h1,h2,h3{
+    font: 600 1.3em 'Michroma', sans-serif;
+}
+div.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FFFFFFFF;
+    height: 80px;
+    font: 1.1em 'Michroma', sans-serif;
+
+}
+
+div.logo{
+    position: relative;
+    bottom: 55px;
+}
+
+nav.menu_navig ul a>li{
+    display: inline-block;
+    margin-right: 100px;
+    list-style-type: none;
+    color: #1F2039;
+}
+nav.menu_navig ul a>li:hover{
+    border-bottom: 4px solid #1F2039;
+}
+nav.menu_navig ul a{
+    text-decoration: none;
+}
+div.banner{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFFFF;
+    margin: 72px 50px ;
+}
+.banner .left-side-banner h1{
+    font: 4vw 'Michroma', sans-serif;
+}
+ button.link-to{
+    margin-top:30px;
+    width: 306px;
+    height: 62px;
+    padding: 21px, 38px, 21px, 38px;
+    border-radius: 50px;
+    gap: 10px;
+    border: none;
+    line-height: 20.72px;
+    color: #FFFFFFFF;
+    font: 0.7em 'Michroma', sans-serif;
+    background:linear-gradient(#8E86B5,#ACAEED);
+    
+}
+.banner .right-side-banner{
+    width: 500px;
+    height: 500px;
+    margin: 40px 100px 0 0;
+
+}
+.banner .right-side-banner img{
+    width: 419px;
+    height: 425px;
+    position: relative;
+}
+.banner .right-side-banner svg{
+    position: relative;
+    left: 370px;
+    bottom: 50px;
+}
+/*------------------------------------------------------------------*/
+ .container {
+    position: relative;
+    background-color: #FFFFFFFF;
+    color: #1F2039; 
+    margin-top: 80px;
+    padding-top: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+ .container .image-collection{
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formuler{
+    background-color: #1F2039;
+    margin-top: 80px;
+    
+
+}
+.formuler h2{
+    text-align: center;
+    color: #A5B4FC;
+    padding-top: 40px;
+}
+.formuler form{
+    position: relative;
+    margin: 0px auto;
+    color: #FFFFFFFF;
+    padding: 50px;
+    
+    
+}
+.champs>input{
+    width: 253px;
+    height: 62px;
+}
+form .header-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+form .header-form .left .champs input[type="text"]{
+    display: block;
+}
+form .header-form .right .champs input[type="text"]{
+    display: block;
+}
+.formuler form textarea{
+    display: block;
+    width: 525px;
+    height: 207px;
+    
+}
+form button.link-to{
+    margin-left:20%;
+}
+form {
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.champs>input, .message>textarea{
+    font-size: 1.7em;    
+}
+/* designe de la page a propos ............................ */
+.photo-group {
+    position: relative;
+}
+.photo-group .maskof{
+    position: relative;
+    width: 1050px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    align-content: center;
+    height: 600px;
+    margin-left:  198px;
+    gap: 10px;
+    z-index: 2;
+    
+}
+/*.photo-group .maskof div{
+    padding-top: 10px;
+    border: 1px solid #1F2039;
+    border-radius: 9px;
+}*/
+
+.photo-group .maskof div>img{
+    width: 192.247px;
+    height: 195px;
+    flex-shrink: 0;
+}
+
+#pageOfAbout .rectangle{
+    width: 615px;
+    height: 413px;
+    background: #2C2E51;
+    position: absolute;
+    right: 120px;
+    bottom: 40px;
+    z-index: 1;
+}
+#pageOfAbout  >section{
+    color: #FFFFFFFF;
+    position: relative;
+}
+
+.middle h1{
+    color: #A5B4FC;
+    text-transform: capitalize;
+    margin-left: 347px;
+    letter-spacing: 0.125em;
+    
+}
+.middle h2{
+    font-size: 1em;
+    letter-spacing: 0.125em;
+    margin-left: 422px;
+}
+.middle p{
+    width: 516px;
+    margin-left: 422px;
+    text-align: justify;
+}
+.middle ul{
+    margin-left: 422px;
+}
+.middle .barre-latéral{
+    position: absolute;
+    right: 350px;
+    bottom: 5px;
+    top: 100px;
+    width: 315px;
+    height: 405px;
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
+}
+.middle .link-to{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 40%;
+}
+#footerAbout{
+    background-color: #FFFFFFFF;
+    height: 80px;
+}
+#footerAbout .contenue{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0px 40px;
+    
+}
+#footerAbout .contenue .social-media-link>i{
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+
