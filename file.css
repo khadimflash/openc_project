@@ -113,7 +113,7 @@ div.banner{
 
 }
 .formuler h2{
-    text-align: center;
+    margin-left:490px;
     color: #A5B4FC;
     padding-top: 40px;
 }
@@ -261,13 +261,32 @@ form {
     margin: 146px 0 0 100px;
     color: #A5B4FC;
 }
+.slider{
+    margin-top: 32px;
+}
 .slider>div>h2{
+    font-size: 1em;
+    white-space: nowrap;
+    letter-spacing: 0.12em;
+    margin: 0 146px 0 0;
     color: #A5B4FC;
 }
+.slider>div>span{
+    display: block;
+    padding-top: 10px;
+}
+.price{
+    font-size: 1em;
+    color: #A5B4FC;
+}
+.description{
+    font-size: 0.6em;
+}
+
 .container2 .slider >div{
     padding-right: 32px;
     padding-bottom: 32px;
-    width: 278px;
+    width: 300px;
     border-bottom: 1px solid #A5B4FC;
     border-right: 1px solid #A5B4FC;
 }
