@@ -15,7 +15,8 @@ body{
     
 }
 h1,h2,h3{
-    font: 600 1.3em 'Michroma', sans-serif;
+    font: 600 1.4em 'Michroma', sans-serif;
+    color: #A5B4FC;
 }
 div.menu{
     display: flex;
@@ -255,7 +256,12 @@ form {
     color: #FFFFFFFF;
 }
 .container2 h1{
+    font-size: 1.4em;
+    letter-spacing: 0.125em;
     margin: 146px 0 0 100px;
+    color: #A5B4FC;
+}
+.slider>div>h2{
     color: #A5B4FC;
 }
 .container2 .slider >div{
@@ -279,7 +285,7 @@ table{
 
 table,tr,td,th{
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
     border: 1px solid #A5B4FC;
     border-collapse: collapse;
 }
@@ -287,7 +293,44 @@ th,td{
   width: 380px; 
   padding: 40px; 
 }
-h2{
+h2.table-title{
     margin: 146px 0 0 100px;
     color: #A5B4FC;
+    letter-spacing: 0.125em;
 }
+#table-info{
+    margin-bottom: 150px;
+}
+/* stilisation de la page portfolio............. */
+#banner{
+    height: 150px;
+}
+
+#banner h1{
+        margin-left: 168px;
+        padding-top: 65px;
+        font-size: 2.5vw;
+        vertical-align:middle;
+        height: 200px;
+        color: #A5B4FC;
+}
+.white-bacground{
+    padding:100px 0 50px 0;
+    background-color: #FFFFFFFF;
+    color: #1F2039;
+    
+}
+.white-bacground h1,h2{
+    margin-left: 168px;
+    color: #1F2039;
+}
+.paysage-photo, .portrait-photo{
+
+    margin-left: 168px;
+    display: flex;
+    width: 1050px;
+    gap: 20px;
+    flex-flow: row wrap;
+    
+}
+
