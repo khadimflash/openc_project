@@ -11,14 +11,14 @@ body{
     background-color: #1F2039;
     margin: 0;
     padding: 0;
-    
-    
 }
 h1,h2,h3{
     font: 600 1.4em 'Michroma', sans-serif;
     color: #A5B4FC;
 }
 div.menu{
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
