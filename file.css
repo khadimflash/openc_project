@@ -74,11 +74,6 @@ div.banner{
     margin: 40px 100px 0 0;
 
 }
-.banner .right-side-banner img{
-    width: 419px;
-    height: 425px;
-    position: relative;
-}
 .banner .right-side-banner svg{
     position: relative;
     left: 370px;
@@ -93,7 +88,6 @@ div.banner{
     padding-top: 32px;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 40px;
     padding-bottom: 100px;
 }
 
@@ -352,4 +346,9 @@ h2.table-title{
     flex-flow: row wrap;
     
 }
+.portrait-photo img:hover,.paysage-photo img:hover{
+
+    opacity: 0.5;
+}
+
 
